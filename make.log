@@ -1,0 +1,240 @@
+make ARCH=x86_64 CROSS_COMPILE= -C /lib/modules/5.10.1-desktop-1bP/build M=/usr/src/RPM/SOURCES/rtl8192fu-dkms  modules
+make[1]: Entering directory '/usr/src/kernel-5.10.1-desktop-1bP'
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/rtw_cmd.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/rtw_security.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/rtw_debug.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/rtw_io.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/rtw_ioctl_query.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/rtw_ioctl_set.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/rtw_ieee80211.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/rtw_mlme.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/rtw_mlme_ext.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/rtw_mi.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/rtw_wlan_util.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/rtw_vht.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/rtw_pwrctrl.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/rtw_rf.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/rtw_chplan.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/rtw_recv.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/rtw_sta_mgt.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/rtw_ap.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/mesh/rtw_mesh.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/mesh/rtw_mesh_pathtbl.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/mesh/rtw_mesh_hwmp.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/rtw_xmit.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/rtw_p2p.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/rtw_rson.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/rtw_tdls.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/rtw_br_ext.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/rtw_iol.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/rtw_sreset.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/rtw_btcoex_wifionly.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/rtw_btcoex.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/rtw_beamforming.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/rtw_odm.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/rtw_rm.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/rtw_rm_fsm.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/rtw_rm_util.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/efuse/rtw_efuse.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/osdep_service.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/os_intfs.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/usb_intf.o
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/osdep_service.c:2162:12: warning: ‘writeFile’ defined but not used [-Wunused-function]
+ 2162 | static int writeFile(struct file *fp, char *buf, int len)
+      |            ^~~~~~~~~
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/osdep_service.c:2131:12: warning: ‘readFile’ defined but not used [-Wunused-function]
+ 2131 | static int readFile(struct file *fp, char *buf, int len)
+      |            ^~~~~~~~
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/usb_ops_linux.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_linux.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/xmit_linux.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/mlme_linux.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/recv_linux.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_cfg80211.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/rtw_cfgvendor.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/wifi_regd.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/rtw_android.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/rtw_proc.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/rtw_rhashtable.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/hal_intf.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/hal_com.o
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_write_reg’:
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c:45:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+   45 |  char input[wrqu->length + 1];
+      |  ^~~~
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_read_reg’:
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c:131:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+  131 |  char input[wrqu->length + 1];
+      |  ^~~~
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_write_rf’:
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c:265:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+  265 |  char input[wrqu->length];
+      |  ^~~~
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_read_rf’:
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c:307:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+  307 |  char input[wrqu->length];
+      |  ^~~~
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_rate’:
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c:423:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+  423 |  u8  input[wrqu->length + 1];
+      |  ^~
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_channel’:
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c:473:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+  473 |  u8  input[wrqu->length + 1];
+      |  ^~
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_ch_offset’:
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c:500:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+  500 |  u8  input[wrqu->length + 1];
+      |  ^~
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_bandwidth’:
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c:527:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+  527 |  u8  input[wrqu->length];
+      |  ^~
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_txpower_index’:
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c:562:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+  562 |  char input[wrqu->length + 1];
+      |  ^~~~
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_txpower’:
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c:634:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+  634 |  u8  input[wrqu->length];
+      |  ^~
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_ant_tx’:
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c:672:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+  672 |  u8  input[wrqu->length + 1];
+      |  ^~
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_ant_rx’:
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c:726:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+  726 |  u8  input[wrqu->length + 1];
+      |  ^~
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_disable_bt_coexist’:
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c:942:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+  942 |  u8 input[wrqu->data.length + 1];
+      |  ^~
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_arx’:
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c:980:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+  980 |  u8  input[wrqu->length];
+      |  ^~
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_pwrtrk’:
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c:1170:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+ 1170 |  u8  input[wrqu->length];
+      |  ^~
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_psd’:
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c:1208:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+ 1208 |  u8  input[wrqu->length + 1];
+      |  ^~
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_dump’:
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c:1363:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+ 1363 |  u8  input[wrqu->length];
+      |  ^~
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_phypara’:
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c:1387:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+ 1387 |  char input[wrqu->length];
+      |  ^~~~
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_SetRFPath’:
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c:1442:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+ 1442 |  char input[wrqu->length];
+      |  ^~~~
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_switch_rf_path’:
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c:1493:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+ 1493 |  char input[wrqu->length];
+      |  ^~~~
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_QueryDrv’:
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c:1542:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+ 1542 |  char input[wrqu->data.length];
+      |  ^~~~
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_PwrCtlDM’:
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c:1571:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+ 1571 |  u8  input[wrqu->length];
+      |  ^~
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_link’:
+/usr/src/RPM/SOURCES/rtl8192fu-dkms/os_dep/linux/ioctl_mp.c:2678:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+ 2678 |  char input[wrqu->length];
+      |  ^~~~
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/hal_com_phycfg.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/hal_phy.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/hal_dm.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/hal_dm_acs.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/hal_btcoex_wifionly.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/hal_btcoex.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/hal_mp.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/hal_mcc.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/hal_hci/hal_usb.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/led/hal_led.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/led/hal_usb_led.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/HalPwrSeqCmd.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/rtl8192f/Hal8192FPwrSeq.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/rtl8192f/rtl8192f_sreset.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/rtl8192f/rtl8192f_hal_init.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/rtl8192f/rtl8192f_phycfg.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/rtl8192f/rtl8192f_rf6052.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/rtl8192f/rtl8192f_dm.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/rtl8192f/rtl8192f_rxdesc.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/rtl8192f/rtl8192f_cmd.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/rtl8192f/hal8192f_fw.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/rtl8192f/rtl8192f_lps_poff.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/rtl8192f/usb/usb_halinit.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/rtl8192f/usb/rtl8192fu_led.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/rtl8192f/usb/rtl8192fu_xmit.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/rtl8192f/usb/rtl8192fu_recv.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/rtl8192f/usb/usb_ops.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/efuse/rtl8192f/HalEfuseMask8192F_USB.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/phydm_debug.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/phydm_antdiv.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/phydm_soml.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/phydm_smt_ant.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/phydm_antdect.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/phydm_interface.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/phydm_phystatus.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/phydm_hwconfig.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/phydm.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/phydm_dig.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/phydm_pathdiv.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/phydm_rainfo.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/phydm_dynamictxpower.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/phydm_adaptivity.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/phydm_cfotracking.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/phydm_noisemonitor.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/phydm_beamforming.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/phydm_direct_bf.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/phydm_dfs.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/txbf/halcomtxbf.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/txbf/haltxbfinterface.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/txbf/phydm_hal_txbf_api.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/phydm_adc_sampling.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/phydm_ccx.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/phydm_psd.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/phydm_primary_cca.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/phydm_cck_pd.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/phydm_rssi_monitor.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/phydm_auto_dbg.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/phydm_math_lib.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/phydm_api.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/phydm_pow_train.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/phydm_lna_sat.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/phydm_pmac_tx_setting.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/phydm_mp.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/phydm_cck_rx_pathdiv.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/halrf/halrf.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/halrf/halrf_debug.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/halrf/halphyrf_ce.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/halrf/halrf_powertracking_ce.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/halrf/halrf_powertracking.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/halrf/halrf_kfree.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/halrf/halrf_psd.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/rtl8192f/halhwimg8192f_bb.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/rtl8192f/halhwimg8192f_mac.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/rtl8192f/phydm_hal_api8192f.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/rtl8192f/phydm_regconfig8192f.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/rtl8192f/phydm_rtl8192f.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/halrf/rtl8192f/halhwimg8192f_rf.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/phydm/halrf/rtl8192f/halrf_8192f.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/btc/halbtccommon.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/hal/btc/halbtc8192f.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/platform/platform_ops.o
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/core/rtw_mp.o
+  LD [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/8192fu.o
+  MODPOST /usr/src/RPM/SOURCES/rtl8192fu-dkms/Module.symvers
+  CC [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/8192fu.mod.o
+  LD [M]  /usr/src/RPM/SOURCES/rtl8192fu-dkms/8192fu.ko
+make[1]: Leaving directory '/usr/src/kernel-5.10.1-desktop-1bP'
